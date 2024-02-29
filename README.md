@@ -105,8 +105,12 @@ response:
 ```
 
 ## Deliverables
-Please return a zip file containing the *repo.bundle* resulting from the following command:  
-`git bundle create repo.bundle --branches --tags`
+To generate a bundle from your git project, go to the project root folder and type:
+```
+git bundle create repo.bundle --branches --tags
+git bundle verify repo.bundle
+```
+If everything is okay, please return a zip file containing the generated *repo.bundle* file.
   
 Make sure to include:
 - All source code you produced
