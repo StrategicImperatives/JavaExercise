@@ -117,6 +117,8 @@ Make sure to include:
 - A comprehensive README file
 - If using containers, a Compose file to run your project
 
+Please do not fork this repo.
+
 # Assessment
 Your project is going to be assessed as per the following criteria:
 1. Your project must build and run on Unix-like machines (Linux or Mac OS)
